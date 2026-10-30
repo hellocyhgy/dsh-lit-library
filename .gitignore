@@ -154,3 +154,14 @@ node_modules/
 profile-backup-*/
 backup-微纳文献-*/
 lit-projects/
+
+# 本地开发 / 交接文档（不随公开仓库发布）
+AGENTS.md
+CHANGELOG.md
+交接-状态.md
+决策页.md
+SPEC-*.md
+验收结果.md
+进度.md
+archive/
+scripts/
