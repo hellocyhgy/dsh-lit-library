@@ -1,6 +1,6 @@
 {
   "name": "dsh-lit-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Import papers into a governed literature library: extract text, append one index row, and verify every quote.",
   "license": "MIT",
@@ -37,7 +37,7 @@
     "unpdf": "^1.9.1"
   },
   "peerDependencies": {
-    "@deepseek-ai/dsh-tools": ">=0.1.0",
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0",
     "@deepseek-ai/schemastery": "~3.18.5"
   },
   "dsh": {
