@@ -1,6 +1,6 @@
 {
   "name": "dsh-lit-library",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "Import papers into a governed literature library: extract text, append one index row, and verify every quote.",
   "license": "MIT",
