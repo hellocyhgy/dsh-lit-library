@@ -1,0 +1,11 @@
+# dsh-lit-library bundle patch
+#
+# 这个文件是 `dsh.bundle.patch` 层：本包通过 bundle 通道安装时，
+# 下面这一行把插件（5 个工具 + 内嵌 Skill）挂到宿主 Cordis 树上。
+#
+# 开发期也可以把同一行手动加进 profile 的 cordis.patch.yml。
+#
+# 注意：patch 文件不能是空的或只有注释——loader 会启动失败。留空请写 `[]`。
+- insert:
+    - id: lit-library
+      name: 'dsh-lit-library'

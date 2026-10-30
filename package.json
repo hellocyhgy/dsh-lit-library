@@ -1,0 +1,48 @@
+{
+  "name": "dsh-lit-library",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Import papers into a governed literature library: extract text, append one index row, and verify every quote.",
+  "license": "MIT",
+  "author": "hellocyhgy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellocyhgy/dsh-lit-library.git"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "literature",
+    "pdf",
+    "knowledge-base",
+    "citation"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "unpdf": "^1.9.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.1.0",
+    "@deepseek-ai/schemastery": "~3.18.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
